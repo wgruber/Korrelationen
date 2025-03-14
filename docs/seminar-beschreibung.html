@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Seminar-Beschreibung | Korrelation</title>
+  <meta name="description" content="Seminar-Beschreibung | Korrelationstechniken" />
+  <meta name="generator" content="bookdown 0.42 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="Seminar-Beschreibung | Korrelation" />
+  <meta property="og:type" content="book" />
+  <meta property="og:image" content="/Images/Cover1.jpg" />
+  <meta property="og:description" content="Seminar-Beschreibung | Korrelationstechniken" />
+  <meta name="github-repo" content="wgruber/LineareRegression" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Seminar-Beschreibung | Korrelation" />
+  
+  <meta name="twitter:description" content="Seminar-Beschreibung | Korrelationstechniken" />
+  <meta name="twitter:image" content="/Images/Cover1.jpg" />
+
+<meta name="author" content="Walter Gruber" />
+
+
+<meta name="date" content="2025-03-14" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="index.html"/>
+<link rel="next" href="variabilität.html"/>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
+
+
+
+<style type="text/css">
+  
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+</style>
+
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="index.html#section" id="toc-section"></a></li>
+<li class="chapter" data-level="" data-path="seminar-beschreibung.html"><a href="seminar-beschreibung.html"><i class="fa fa-check"></i>Seminar-Beschreibung</a></li>
+<li class="part"><span><b>Teil III: Variabilitäten und Korrelationen</b></span></li>
+<li class="chapter" data-level="" data-path="variabilität.html"><a href="variabilität.html"><i class="fa fa-check"></i>Variabilität</a>
+<ul>
+<li class="chapter" data-level="" data-path="variabilität.html"><a href="variabilität.html#pearson-produkt-moment-korrelation"><i class="fa fa-check"></i>Pearson Produkt Moment Korrelation</a>
+<ul>
+<li class="chapter" data-level="" data-path="variabilität.html"><a href="variabilität.html#beispiel-pearson-korrelation"><i class="fa fa-check"></i>Beispiel Pearson Korrelation</a></li>
+<li class="chapter" data-level="" data-path="variabilität.html"><a href="variabilität.html#aufgabe-korrelation"><i class="fa fa-check"></i>Aufgabe Korrelation</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="variabilität.html"><a href="variabilität.html#kausalität"><i class="fa fa-check"></i>Kausalität</a></li>
+<li class="chapter" data-level="" data-path="variabilität.html"><a href="variabilität.html#partial--semipartialkorrelation"><i class="fa fa-check"></i>Partial- Semipartialkorrelation</a>
+<ul>
+<li class="chapter" data-level="" data-path="variabilität.html"><a href="variabilität.html#beispiel-partial--semipartialkorrelation"><i class="fa fa-check"></i>Beispiel Partial- Semipartialkorrelation</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="variabilität.html"><a href="variabilität.html#korrelationstechniken"><i class="fa fa-check"></i>Korrelationstechniken</a>
+<ul>
+<li class="chapter" data-level="" data-path="variabilität.html"><a href="variabilität.html#spearman-und-kendall"><i class="fa fa-check"></i>Spearman und Kendall</a></li>
+<li class="chapter" data-level="" data-path="variabilität.html"><a href="variabilität.html#biseriale-korrelation"><i class="fa fa-check"></i>Biseriale Korrelation</a></li>
+<li class="chapter" data-level="" data-path="variabilität.html"><a href="variabilität.html#phi-koeffizient"><i class="fa fa-check"></i>Phi-Koeffizient</a></li>
+<li class="chapter" data-level="" data-path="variabilität.html"><a href="variabilität.html#tetrachorische-korrelation"><i class="fa fa-check"></i>Tetrachorische Korrelation</a></li>
+<li class="chapter" data-level="" data-path="variabilität.html"><a href="variabilität.html#polychorische-korrelation"><i class="fa fa-check"></i>Polychorische Korrelation</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="variabilität.html"><a href="variabilität.html#aufgabe-korrelation-lsg"><i class="fa fa-check"></i>Aufgabe Korrelation Lsg</a></li>
+<li class="chapter" data-level="" data-path="variabilität.html"><a href="variabilität.html#aufgabe-spearman-lsg"><i class="fa fa-check"></i>Aufgabe Spearman Lsg</a></li>
+<li class="chapter" data-level="" data-path="variabilität.html"><a href="variabilität.html#aufgabe-biserial-lsg"><i class="fa fa-check"></i>Aufgabe Biserial Lsg</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="referenzen.html"><a href="referenzen.html"><i class="fa fa-check"></i>Referenzen</a></li>
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Korrelation</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="seminar-beschreibung" class="section level1 unnumbered hasAnchor">
+<h1>Seminar-Beschreibung<a href="seminar-beschreibung.html#seminar-beschreibung" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<p>In vielen wissenschaftlichen Disziplinen steht das Erkennen und Formulieren allgemein gültiger Gesetzmäßigkeiten für natürlich auftretende Phänomene im Vordergrund. Häufig handelt es sich bei diesen Phänomenen um komplexe Zusammenhänge, die man nur mit Hilfe eines entsprechenden Modells beschreiben kann. Dabei soll dieses Modell einerseits die Realität so gut wie möglich beschreiben und andererseits auch die Möglichkeit bieten, Vorhersagen für zukünftige Ereignisse bestmöglich zu treffen.</p>
+
+</div>
+
+
+
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="index.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="variabilität.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"whatsapp": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": null,
+"search": {
+"engine": "fuse",
+"options": null
+},
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+</body>
+
+</html>
