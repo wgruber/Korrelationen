@@ -90,7 +90,7 @@ Die Beziehung zwischen zwei (intervallskallierten) Variablen lässt sich am best
 
 <center>
 
-![](01_Korrelationen_files/figure-latex/Gassi_Pos_Korr_Scatter-1.pdf)<!-- --> 
+<img src="01_Korrelationen_files/figure-html/Gassi_Pos_Korr_Scatter-1.png" width="288" />
 
 </center>
 
@@ -106,7 +106,7 @@ In diesem Fall ist die Korrelation auch perfekt, nur eben in die entgegengesetzt
 
 <center>
 
-![](01_Korrelationen_files/figure-latex/Gassi_Neg_Korr_Scatter-1.pdf)<!-- --> 
+<img src="01_Korrelationen_files/figure-html/Gassi_Neg_Korr_Scatter-1.png" width="288" />
 
 </center>
 
@@ -116,7 +116,7 @@ Interessant und der Praxis am ehesten entsprechend, sind jedoch Fälle, in denen
 
 ![**Abbildung 3**: Hund und Mensch bewegen sich zum Teil unabhängig, zum Teil aber auch synchron. Dies entspricht dann einer Kovarianz, bzw. Korrelation die irgendwo zwischen $r \in [-1, 1]$ liegt (im Beispiel ist $r(M,H) = 0.5$ und somit $r^2 = 0.25$).](Images/GassiBeliebigeKorrelation.JPG){ width=25% }
 
-![](01_Korrelationen_files/figure-latex/Gassi_Teilweis_Korr_Scatter-1.pdf)<!-- --> 
+<img src="01_Korrelationen_files/figure-html/Gassi_Teilweis_Korr_Scatter-1.png" width="288" />
 
 </center>
 
@@ -142,7 +142,7 @@ Für das Beispiel ergibt sich eine normale Korrelation von $r(M,H)=$ -1. Die Kor
 
 <center>
 
-![](01_Korrelationen_files/figure-latex/Gassi_Kreuz_Korr_Plot-1.pdf)<!-- --> 
+<img src="01_Korrelationen_files/figure-html/Gassi_Kreuz_Korr_Plot-1.png" width="480" />
 
 </center>
 
@@ -181,7 +181,7 @@ Eine weitere wichtige Eigenschaft die mit Hilfe dieser Vorgehensweise geprüft w
 
 <center>
 
-![](01_Korrelationen_files/figure-latex/Gassi_Auto_Korr_Plot-1.pdf)<!-- --> 
+<img src="01_Korrelationen_files/figure-html/Gassi_Auto_Korr_Plot-1.png" width="480" />
 
 </center>
 
